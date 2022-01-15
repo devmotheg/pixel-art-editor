@@ -1,0 +1,88 @@
+/*!
+ * @author Mohamed Muntasir
+ * @link https://github.com/devmotheg
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 20px;
+}
+
+body {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	min-width: 870px;
+	margin: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+	display: block;
+	margin: 0.5rem auto;
+	width: fit-content;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.app {
+	width: fit-content;
+	margin: auto;
+	background: #222;
+	color: #eee;
+	padding: 15px;
+	border-radius: 6px;
+	box-shadow: 0 13px 16px 3px rgb(40 40 40 / 30%);
+}
+
+.app__picture {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.app__interface {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	gap: 8px;
+}
+
+#app__tools,
+#app__colors,
+button {
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	color: #222;
+	background: #eee;
+	padding: 3px;
+}
+
+button,
+#app__tools {
+	font-size: inherit;
+	font-family: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+}
+
+button:disabled {
+	background: #bbb;
+}
