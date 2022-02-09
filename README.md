@@ -1,5 +1,7 @@
 # Pixel Art Editor
 
+Inspired from Eloquent's JS book! ツ
+
 ## Keyboard shortcuts
 
 - You can quickly select a tool by pressing the first letter of its name on your keyboard.
