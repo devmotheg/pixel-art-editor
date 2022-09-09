@@ -1,6 +1,6 @@
 # Pixel Art Editor
 
-Inspired from Eloquent's JS book! ツ
+Inspired from Eloquent JS book! ツ
 
 ## Keyboard shortcuts
 
